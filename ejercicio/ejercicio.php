@@ -1,5 +1,4 @@
 <?php
-//termina esto solo para copiar y pegar sin comentarios
 
 
 //array multidimencional de espacios
