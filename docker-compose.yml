@@ -1,0 +1,11 @@
+services:
+  apache:
+    build: ./apache
+    image: imagen-parcial
+    container_name: contenedor-parcial
+    restart: always
+    volumes:
+      - ./ejercicio:/var/www/html
+    ports:
+      - "8080:80"
+    
